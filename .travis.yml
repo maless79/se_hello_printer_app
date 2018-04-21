@@ -3,7 +3,10 @@ python:
   - "2.7"
 install:
   - make deps
+ script:
+  - make test
+  - make lint
 deploy:
-provider: heroku
-app: whispering-meadow-93101
-api_key: ${HEROKU_API_KEY}
+  provider: heroku
+  app: whispering-meadow-93101
+  api_key: ${HEROKU_API_KEY}
