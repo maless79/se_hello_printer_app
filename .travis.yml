@@ -9,4 +9,4 @@ script:
 deploy:
 provider: heroku
 app: whispering-meadow-93101
-api_key: 76aed2a5-f2a6-45e3-aae4-45c1e81b6092
+api_key:
