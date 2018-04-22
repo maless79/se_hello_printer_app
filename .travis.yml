@@ -4,17 +4,15 @@ python:
 install:
   - make deps
 script:
-  - make test
-  - make lint
-  - make test_cov
   - make test_xunit
+  - make lint
   - make docker_build
   - make docker_push
 services:
-    - docker
+  - docker
 after_success:
   - make docker_push
 deploy:
   provider: heroku
   app: whispering-meadow-93101
-api_key: ${HEROKU_API_KEY}
+  api_key: ${HEROKU_API_KEY}
