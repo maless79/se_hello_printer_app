@@ -45,7 +45,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 .. |docs| image:: https://travis-ci.org/maless79/se_hello_printer_app.svg?branch=master
     :alt: Documentation Status
     :scale: 100%
-    :target: https://travis-ci.org/rtfd/readthedocs.org
+    :target: https://github.com/maless79/se_hello_printer_app
 
 
 Pomocnicze
