@@ -8,7 +8,7 @@ lint:
 test:
 	PYTHONPATH=. py.test
 test_cov:
-	PYTHONPATH=. py.test --verbose -s --cov=.
+	PYTHONPATH=. py.test --verbose -s --cov=. --cov-report xml
 test_xunit:
 	PYTHONPATH=. py.test -s --cov=. --junit-xml=test_results.xml
 docker_build:
