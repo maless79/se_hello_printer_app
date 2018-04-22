@@ -1,6 +1,7 @@
 Simple Flask App
 ================
-ZMIANA W README
+|docs|
+
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć 
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
@@ -40,7 +41,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Integracja z TravisCI:
 
- image :: https://travis-ci.org/maless79/se_hello_printer_app.svg?branch=master
+ ..|docs| image :: https://travis-ci.org/maless79/se_hello_printer_app.svg?branch=master
         :alt: Documentation Status
         :scale: 100%
         :target: https://travis-ci.org/rtfd/readthedocs.org
