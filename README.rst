@@ -1,3 +1,8 @@
+.. image:: https://travis-ci.org/maless79/se_hello_printer_app.svg?branch=master
+
+
+.. image:: https://app.statuscake.com/button/index.php?Track=3115412&Days=1&Design=1
+
 Simple Flask App
 ================
 
@@ -41,12 +46,6 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - Integracja z TravisCI:
 
   
-.. image:: https://travis-ci.org/maless79/se_hello_printer_app.svg?branch=master
-
-
-.. image:: https://app.statuscake.com/button/index.php?Track=3115412&Days=1&Design=1
-
-
 Pomocnicze
 ==========
 
