@@ -1,1 +1,17 @@
 
+Aplikacj Hello World napisana w języku Python (https://www.python.org/). 
+Wraz z aplikacją zostały przygotowane zautomatyzowane testy korzystające z biblioteki Unittest (https://docs.python.org/3/library/unittest.html).
+Z repozytoriów lokalnych znajdujących się na stacjach roboczych developerów, zbudowanych w oparciu o mtechnologię wirtualizacji, 
+zarządznych przez system z rodziny Linux - CentOS (https://www.centos.org/) źródła kody aplikacji wraz ze skryptami testującymi jest przesyłana na serwery GitHub (https://github.com/). 
+Prócz źródeł kodu aplikacji, na servery GitHub przekazywane są również dane konfiguracyjne dla aplikacji Travic CI (https://travis-ci.org/)
+oraz (https://www.docker.com/), a także Heroku (https://www.heroku.com/).
+Zdeponowane na Github źródła, są następnie za pomocą TraviCI, sprawdzane i testowane, oraz  przekazywane do serwisu Docker.com  gdzie aplikacja dostępna jest jako kontener dockera.
+TraviCI ponadto zgodnie ze zdefiniowaną konfiguracją dokonuje deploy aplikacji w serwisie Heroku.
+Stan dostępności aplikacji Hello World w sieci webmonitorowany jest za pomocą serwisu StatusCake (https://www.statuscake.com/).
+
+URL:
+
+https://github.com/maless79/se_hello_printer_app
+https://travis-ci.org/maless79/se_hello_printer_app
+https://dashboard.heroku.com/apps/whispering-meadow-93101
+https://app.statuscake.com/AllStatus.php?tid=3115412
